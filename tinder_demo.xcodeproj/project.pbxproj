@@ -14,6 +14,8 @@
 		071E0DE121A5679600B2E313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071E0DDF21A5679600B2E313 /* LaunchScreen.storyboard */; };
 		071E0DEC21A5679600B2E313 /* tinder_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E0DEB21A5679600B2E313 /* tinder_demoTests.swift */; };
 		071E0DF721A5679600B2E313 /* tinder_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E0DF621A5679600B2E313 /* tinder_demoUITests.swift */; };
+		071E0E0521A569B900B2E313 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E0E0421A569B900B2E313 /* CardsViewController.swift */; };
+		071E0E0721A5793300B2E313 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E0E0621A5793300B2E313 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		071E0DF221A5679600B2E313 /* tinder_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinder_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		071E0DF621A5679600B2E313 /* tinder_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinder_demoUITests.swift; sourceTree = "<group>"; };
 		071E0DF821A5679600B2E313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071E0E0421A569B900B2E313 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		071E0E0621A5793300B2E313 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				071E0DD621A5679400B2E313 /* AppDelegate.swift */,
 				071E0DD821A5679500B2E313 /* ViewController.swift */,
 				071E0DDA21A5679500B2E313 /* Main.storyboard */,
+				071E0E0621A5793300B2E313 /* ProfileViewController.swift */,
+				071E0E0421A569B900B2E313 /* CardsViewController.swift */,
 				071E0DDD21A5679600B2E313 /* Assets.xcassets */,
 				071E0DDF21A5679600B2E313 /* LaunchScreen.storyboard */,
 				071E0DE221A5679600B2E313 /* Info.plist */,
@@ -258,6 +264,8 @@
 			files = (
 				071E0DD921A5679500B2E313 /* ViewController.swift in Sources */,
 				071E0DD721A5679400B2E313 /* AppDelegate.swift in Sources */,
+				071E0E0721A5793300B2E313 /* ProfileViewController.swift in Sources */,
+				071E0E0521A569B900B2E313 /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
